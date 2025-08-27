@@ -203,7 +203,7 @@
                   <p class="about-text">Chúng tôi sẽ giải đáp một số câu hỏi thường gặp của khách hàng khi sử dụng dịch vụ
                   </p>
                   <div class="faq-img mt-3">
-                     <img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" data-src="https://imagedelivery.net/XP6SKQ-NzRtLXs1fzgn4HA/2866cd70-cd86-4df2-1dbd-b7e4d249cc00/public" alt="slider-1.jpg">
+                     <img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" data-src="https://imagedelivery.net/XP6SKQ-NzRtLXs1fzgn4HA/2be2a0cf-5f8d-495b-b409-0a75a3471f00/public" alt="slider-1.jpg">
                   </div>
                </div>
             </div>

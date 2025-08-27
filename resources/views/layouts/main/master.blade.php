@@ -56,7 +56,7 @@
       <link rel="stylesheet" href="{{env('AWS_R2_URL')}}/frontend/css/jquery-ui.min.css">
       {{-- <link rel="stylesheet" href="{{env('APP_URL')}}/frontend/css/jquery.timepicker.min.css"> --}}
       {{-- <link rel="stylesheet" href="/frontend/css/nice-select.min.css"> --}}
-      <link rel="stylesheet" href="{{env('AWS_R2_URL')}}/frontend/css/style.css">
+      <link rel="stylesheet" href="/frontend/css/style.css">
       <link rel="stylesheet" href="{{env('AWS_R2_URL')}}/frontend/css/callbutton.css">
       <script src="{{env('AWS_R2_URL')}}/frontend/js/jquery-3.6.0.min.js"></script>
       <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.min.js"></script>
@@ -88,6 +88,10 @@
       <div class="inner-fabs">
         
          <a target="blank" href="https://zalo.me/{{$setting->phone1}}" class="fabs roundCool" id="chat-fab"
+            data-tooltip="Nhắn tin Zalo">
+            <img class="inner-fab-icon" src="{{env('AWS_R2_URL')}}/frontend/img/zalo.png" alt="chat-active-icon" border="0">
+         </a>
+         <a target="blank" href="https://zalo.me/{{$setting->phone2}}" class="fabs roundCool" id="chat-fab"
             data-tooltip="Nhắn tin Zalo">
             <img class="inner-fab-icon" src="{{env('AWS_R2_URL')}}/frontend/img/zalo.png" alt="chat-active-icon" border="0">
          </a>

@@ -1,7 +1,7 @@
 <footer class="footer-area">
    <div class="footer-widget">
       <div class="container">
-         <div class="row footer-widget-wrapper pt-120 pb-70">
+         <div class="row footer-widget-wrapper pt-50 pb-50">
             <div class="col-md-6 col-lg-4">
                <div class="footer-widget-box about-us">
                   <a href="{{route('home')}}" class="footer-logo">
@@ -11,7 +11,7 @@
                      {{$setting->webname}}
                   </p>
                   <ul class="footer-contact">
-                     <li><a href="tel:+21236547898"><i class="far fa-phone"></i>{{$setting->phone1}} - {{$setting->phone2}}</a></li>
+                     <li><a href="tel:+21236547898"><i class="far fa-phone"></i>{{$setting->phone1}} {{$setting->phone2}}</a></li>
                      <li><i class="far fa-map-marker-alt"></i>{{$setting->address1}}</li>
                      <li><i class="far fa-map-marker-alt"></i>{{$setting->address2}}</li>
                   </ul>

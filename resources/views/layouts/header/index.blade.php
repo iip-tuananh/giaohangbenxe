@@ -7,7 +7,7 @@
                <div class="header-top-contact">
                   <ul>
                      <li><a href="tel:+21236547898"><i class="far fa-phone-volume"></i> {{$setting->phone1}}</a></li>
-                     <li><a href="#"><i class="far fa-map"></i> {{$setting->address1}}</a></li>
+                     <li><a href="#"><i class="far fa-map"></i> {{$setting->address2}}</a></li>
                   </ul>
                </div>
             </div>
@@ -67,7 +67,7 @@
                      <button type="button" class="nav-right-link"><i class="far fa-search"></i></button>
                   </div>
                   <div class="nav-right-btn mt-2">
-                     <a href="tel:{{$setting->phone1}}" class="theme-btn"><span class="fas fa-taxi"></span>Tư vấn ngay</a>
+                     <a href="https://my.giaohangbenxe.vn/login" class="theme-btn"><span class="fas fa-user"></span>Đăng nhập</a>
                   </div>
                </div>
             </div>

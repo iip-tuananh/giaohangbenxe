@@ -100,7 +100,7 @@
                               submitHandler: function(form) {
                                  $(".spin-icon").css("display", "block");
                                  $.ajax({
-                                  url: "https://script.google.com/macros/s/AKfycbzVT0pLWI2Pxf7GT8rJy4380XMMCxC5y5OTGuHOzvWL31-YV0YT9S4JA-4Tlh6No96z/exec",
+                                  url: "https://script.google.com/macros/s/AKfycbyzVnC9pnnBRgBxGkLCpFVIT4bf73Gp__7kNONNhXGFOJidpO0MlkhmZPtTLcPpd8OJMA/exec",
                                   type: "post",
                                   data: $("#submitForm").serializeArray(),
                                   success: function () {
