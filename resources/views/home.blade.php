@@ -306,8 +306,7 @@
                               @endforeach
                            </select>
                         </div>
-                        <button type="submit" class="theme-btn">Send
-                        Message  <i class="fa fa-spinner fa-spin spin-icon" aria-hidden="true"></i></button>
+                        <button type="submit" class="theme-btn">Gửi tin nhắn<i class="fa fa-spinner fa-spin spin-icon" aria-hidden="true"></i></button>
                         <div class="col-md-12 mt-3">
                            <div class="form-messege text-success"></div>
                         </div>
