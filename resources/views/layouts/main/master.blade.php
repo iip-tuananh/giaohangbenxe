@@ -85,21 +85,21 @@
          </div>
    
       </div>
-      <div onclick="window.location.href= 'tel:{{$setting->phone1}}'" class="hotline-phone-ring-wrap">
+      <div onclick="window.location.href= 'tel:{{$setting->phone2}}'" class="hotline-phone-ring-wrap">
          <div class="hotline-phone-ring">
             <div class="hotline-phone-ring-circle"></div>
             <div class="hotline-phone-ring-circle-fill"></div>
             <div class="hotline-phone-ring-img-circle">
-               <a href="tel:{{$setting->phone1}}" class="pps-btn-img">
+               <a href="tel:{{$setting->phone2}}" class="pps-btn-img">
                   <img src="{{url('frontend/img/phone.png')}}" alt="Gọi điện thoại" width="50">
                </a>
             </div>
          </div>
-         <a href="tel:{{$setting->phone1}}">
+         <a href="tel:{{$setting->phone2}}">
          </a>
-         <div class="hotline-bar"><a href="tel:{{$setting->phone1}}">
-            </a><a href="tel:{{$setting->phone1}}">
-               <span class="text-hotline">{{$setting->phone1}}</span>
+         <div class="hotline-bar"><a href="tel:{{$setting->phone2}}">
+            </a><a href="tel:{{$setting->phone2}}">
+               <span class="text-hotline">{{$setting->phone2}}</span>
             </a>
          </div>
    
