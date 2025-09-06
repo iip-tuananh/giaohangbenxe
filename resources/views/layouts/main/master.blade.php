@@ -66,6 +66,25 @@
       @yield('content')
       @include('layouts.footer.index')
       <a href="#" id="scroll-top"><i class="far fa-arrow-up"></i></a>
+      <div onclick="window.location.href= 'tel:{{$setting->phone1}}'" class="hotline-phone-ring-wrap phone-2">
+         <div class="hotline-phone-ring">
+            <div class="hotline-phone-ring-circle"></div>
+            <div class="hotline-phone-ring-circle-fill"></div>
+            <div class="hotline-phone-ring-img-circle">
+               <a href="tel:{{$setting->phone1}}" class="pps-btn-img">
+                  <img src="{{url('frontend/img/phone.png')}}" alt="Gọi điện thoại" width="50">
+               </a>
+            </div>
+         </div>
+         <a href="tel:{{$setting->phone1}}">
+         </a>
+         <div class="hotline-bar"><a href="tel:{{$setting->phone1}}">
+            </a><a href="tel:{{$setting->phone1}}">
+               <span class="text-hotline">{{$setting->phone1}}</span>
+            </a>
+         </div>
+   
+      </div>
       <div onclick="window.location.href= 'tel:{{$setting->phone1}}'" class="hotline-phone-ring-wrap">
          <div class="hotline-phone-ring">
             <div class="hotline-phone-ring-circle"></div>
@@ -85,7 +104,7 @@
          </div>
    
       </div>
-      <div class="inner-fabs">
+      <div class="inner-fabs show">
         
          <a target="blank" href="https://zalo.me/{{$setting->phone1}}" class="fabs roundCool" id="chat-fab"
             data-tooltip="Nhắn tin Zalo">

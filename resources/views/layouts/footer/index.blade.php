@@ -11,9 +11,10 @@
                      {{$setting->webname}}
                   </p>
                   <ul class="footer-contact">
-                     <li><a href="tel:+21236547898"><i class="far fa-phone"></i>{{$setting->phone1}} {{$setting->phone2}}</a></li>
+                     <li><a href="tel:{{$setting->phone1}}"><i class="far fa-phone"></i>{{$setting->phone1}} </a></li>
                      <li><i class="far fa-map-marker-alt"></i>{{$setting->address1}}</li>
                      <li><i class="far fa-map-marker-alt"></i>{{$setting->address2}}</li>
+                     <li><a href="tel:{{$setting->phone2}}"><i class="far fa-phone"></i>{{$setting->phone2}}</a></li>
                   </ul>
                </div>
             </div>
